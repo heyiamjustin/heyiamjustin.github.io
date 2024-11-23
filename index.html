@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Justin Bai | CU Boulder</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.png">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Lato', Arial, sans-serif;
+            color: #333;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 900px;
+            margin: 50px auto 0;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .sidebar {
+            flex: 1;
+            max-width: 250px;
+            padding-right: 45px;
+            padding-top: 35px;
+            box-sizing: border-box;
+            background-color: #fff;
+        }
+        .sidebar img {
+            width: 100%;
+            height: auto;
+        }
+        .sidebar h2 {
+            margin-top: 20px;
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 1.4;
+        }
+        .links {
+            margin-top: 20px;
+        }
+        .link-button {
+            display: flex;
+            align-items: center;
+            width: 100%;
+            text-decoration: none;
+            color: #333;
+            font-weight: 700;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            background-color: #f0f0f0;
+        }
+        .link-button i {
+            margin-right: 10px;
+            font-size: 18px;
+        }
+        .twitter-button {
+            background-color: #e8f5fd;
+        }
+        .cv-button {
+            background-color: #fff4e6;
+        }
+        .scholar-button {
+            background-color: #e8f0fe;
+        }
+        .main-content {
+            flex: 3;
+            padding: 20px;
+            box-sizing: border-box;
+            background-color: #fff;
+        }
+        .main-content h1 {
+            font-size: 36px;
+            margin-top: 0;
+            font-weight: 700;
+        }
+        .main-content p {
+            font-size: 16px;
+            margin-top: 20px;
+        }
+        .main-content h2 {
+            font-size: 24px;
+            margin-top: 40px;
+            font-weight: 700;
+        }
+        .main-content ul {
+            list-style-type: disc;
+            margin-left: 20px;
+            margin-top: 20px;
+        }
+        .main-content ul li {
+            margin-bottom: 10px;
+        }
+        a {
+            color: inherit;
+        }
+        a:hover {
+            text-decoration: none;
+        }
+        @media screen and (max-width: 768px) {
+            .container {
+                flex-direction: column;
+                margin: 10px;
+            }
+            .sidebar, .main-content {
+                max-width: 100%;
+                padding: 15px;
+            }
+            .main-content h1 {
+                font-size: 28px;
+            }
+            .main-content h2 {
+                font-size: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <img src="profile.jpg" alt="Justin's Photo">
+            <h2>Justin Bai</h2>
+            <p>PhD Candidate<br>CU Boulder Linguistics</p>
+            <tt>
+                justin.bai@colorado.edu
+            </tt>
+            <div class="links">
+                <a href="https://x.com/marxling?lang=en" class="link-button twitter-button">
+                    <i class="fab fa-twitter"></i> Twitter
+                </a>
+                <a href="cv.pdf" class="link-button cv-button">
+                    <i class="fas fa-file-alt"></i> CV
+                </a>
+                <a href="https://scholar.google.com/citations?user=46RSh94AAAAJ&hl=en&oi=ao" class="link-button scholar-button">
+                    <i class="fas fa-graduation-cap"></i> Google Scholar
+                </a>
+            </div>
+        </div>
+        <div class="main-content">
+            <h1>Hey, I am Justin!</h1>
+            <p>
+                I'm a PhD Candidate in Linguistics at CU Boulder, where I am advised by <a href="https://www.colorado.edu/linguistics/rebecca-scarborough">Rebecca Scarborough</a>.
+                My research area is phonetics, with a focus on listener design and phonetic variation.
+                Before coming to Boulder, I received my BA in Linguistics and Cognitive Science from Brown University.
+                Outside of research, I like to <a href="https://www.westword.com/news/denver-rtd-public-transit-free-fare-august-14828396">ride trains</a>.
+            </p>
+            <p>
+                <b>I am graduating soon and seeking postdoc opportunities beginning in Fall 2025!</b>
+            </p>
+            <h2>Selected Research</h2>
+            <p>
+                <a href="#">Neighborhood density and minimal pair effects on English pre-voicing vowel duration.</a> Justin Bai and Rebecca Scarborough. Old World Conference in Phonology. 2025. 
+            </p>
+            <p>
+                <a href="https://labphon.org/sites/default/files/labphon19/Papers/LabPhon19_paper_125.pdf">Listener-directed contrastive hyperarticulation in voicing-conditioned vowel duration.</a> Justin Bai and Rebecca Scarborough. Laboratory Phonology. 2024. 
+            </p>
+            <p>
+                <a href="https://pubs.aip.org/asa/jasa/article/151/4_Supplement/A65/2839288/Enhancing-secondary-voicing-cues-in-words-with">Enhancing secondary voicing cues in words with minimal pairs.</a> Justin Bai and Rebecca Scarborough. Meeting of the Acoustical Society of America. 2022. 
+            </p>
+            <h2>Teaching</h2>
+            At CU Boulder, I have been a teaching assistant for LING 1000: Language in U.S. Society, LING 1020: Languages of the World, and LING 5030: Linguistic Phonetics. In Spring 2025, I will be the instructor of record for LING 3100: Sound Structures. 
+        </div>
+    </div>
+</body>
+</html>
